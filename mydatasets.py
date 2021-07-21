@@ -6,7 +6,7 @@ import urllib
 from torchtext import data
 
 
-class TarDataset(data.Dataset):
+class TarDataset(data.TabularDataset):
     """Defines a Dataset loaded from a downloadable tar archive.
 
     Attributes:
